@@ -1,6 +1,5 @@
 NAMESPACE=cedvan
 CONTAINER=mysql
-RELEASE=latest
 
 # MENU
 all: help
@@ -11,7 +10,6 @@ help:
 	@echo "    -- Latest"
 	@echo "    1.  make build     - Build $(CONTAINER) container latest"
 	@echo "    2.  make test      - Start $(CONTAINER) container latest"
-	@echo "    3.  make tag       - Tag $(CONTAINER) container $(RELEASE)"
 	@echo ""
 
 build:

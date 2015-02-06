@@ -3,7 +3,7 @@ MAINTAINER dev@cedvan.com
 
 # Install MySQL
 RUN apt-get update \
- && apt-get install -y mysql-server \
+ && apt-get install -y mysql-server-5.6 \
  && rm -rf /var/lib/mysql/mysql
 
 # Delete useless list packages
